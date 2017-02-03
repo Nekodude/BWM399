@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"/* External stylesheet */\n\n\n/* body styles */\nbody {\n\tbackground-color:#FFFFFF;\n\tfont-family: san-serif;\n\t\n}\n\nheader {\n\ttext-align: center;\n\t\n}"
+	],
+	"mappings": "AAAA,yBAAyB;AAGzB,iBAAiB;;AACjB,AAAA,IAAI,CAAC;EACJ,gBAAgB,EAAC,OAAQ;EACzB,WAAW,EAAE,SAAU;CAEvB;;;AAED,AAAA,MAAM,CAAC;EACN,UAAU,EAAE,MAAO;CAEnB",
+	"names": []
+}
