@@ -1,14 +1,61 @@
 /* External stylesheet */
+$mainFont: Helvetica, Arial, sans-serif;
+$mainFontColor: #282828;
+$backgroundColor: #ffffff;
+$textAlign: center;
+$padding: 10px;
+
+
+@mixin nav($nav) {
+  -webkit-border-radius: $nav;
+     -moz-border-radius: $nav;
+      -ms-border-radius: $nav;
+          border-radius: $nav;
+}
+
 
 
 /* body styles */
 body {
-	background-color:#FFFFFF;
-	font-family: san-serif;
-	
+	background-color: $backgroundColor;
+	font-family: $mainFont;
+	color: $mainFontColor;
+	margin: 0px 0px 0px 0px;
+	padding: $padding;
+	text-align: $textAlign;
 }
 
 header {
-	text-align: center;
-	
+	text-align: $textAlign;
+	font-family: $mainFont;
+}
+
+h1, h2, p, ul {
+	text-align: $textAlign;
+	font-family: $mainFont;
+	color: $mainFontColor;
+}
+
+ul {
+	li {
+	font-family: $mainFont;
+	color: #000066;
+	}
+}
+
+// big giant cars image
+.carsImage {
+	width: 50%;
+}
+
+nav {
+	a {
+		border: 0px;
+		@include nav(3px); 
+		}
+}
+
+footer {
+	text-align: $textAlign;
+	font-family: $mainFont;
 }

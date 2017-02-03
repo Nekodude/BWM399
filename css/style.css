@@ -1,14 +1,52 @@
 /* External stylesheet */
 /* body styles */
-/* line 5, /Users/jasonsmith1/Desktop/bwm399/scss/style.scss */
+/* line 19, /Users/jasonsmith1/Desktop/bwm399/scss/style.scss */
 body {
-  background-color: #FFFFFF;
-  font-family: san-serif;
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #282828;
+  margin: 0px 0px 0px 0px;
+  padding: 10px;
+  text-align: center;
 }
 
-/* line 11, /Users/jasonsmith1/Desktop/bwm399/scss/style.scss */
+/* line 28, /Users/jasonsmith1/Desktop/bwm399/scss/style.scss */
 header {
   text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* line 33, /Users/jasonsmith1/Desktop/bwm399/scss/style.scss */
+h1, h2, p, ul {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #282828;
+}
+
+/* line 40, /Users/jasonsmith1/Desktop/bwm399/scss/style.scss */
+ul li {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000066;
+}
+
+/* line 47, /Users/jasonsmith1/Desktop/bwm399/scss/style.scss */
+.carsImage {
+  width: 50%;
+}
+
+/* line 52, /Users/jasonsmith1/Desktop/bwm399/scss/style.scss */
+nav a {
+  border: 0px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 58, /Users/jasonsmith1/Desktop/bwm399/scss/style.scss */
+footer {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /*# sourceMappingURL=../css/style.map */
